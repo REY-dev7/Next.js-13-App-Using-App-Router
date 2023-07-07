@@ -25,6 +25,10 @@
   display: flex;
   gap: 100px;
 }
+.title{
+  font-size: 28px;
+  font-weight: bold;
+}
 
 .item {
   flex: 1;

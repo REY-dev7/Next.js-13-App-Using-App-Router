@@ -1,4 +1,15 @@
-export const items = {
+interface Cate{
+  id:number 
+  title: string
+  desc:string
+  image: string
+}
+interface Items{
+  applications: Cate[]
+  illustrations: Cate[]
+  websites: Cate[]
+}
+export const items: Items = {
   applications: [
     {
       id: 1,

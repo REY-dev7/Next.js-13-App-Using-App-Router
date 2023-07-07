@@ -1,6 +1,7 @@
 .container {
 }
 .catTitle {
+  text-transform: capitalize;
   color: #53c28b;
 }
 
