@@ -6,15 +6,16 @@
 }
 
 .image{
+  flex: 1;
   object-fit: cover;
 }
 
 .content {
+  flex: 3;
 }
 
 .title{
   font-size: 26px;
-  color: white;
   font-weight: bold;
   margin-bottom: 10px;
 }

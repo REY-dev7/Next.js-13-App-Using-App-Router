@@ -1,6 +1,5 @@
 import React from "react";
 import HText from "../TextTitle/HText";
-import Button from "../Button/Button";
 import Image from "next/image";
 import styles from "./page.module.css";
 import Link from "next/link";
@@ -16,7 +15,7 @@ const TitleDesc = ({ desc, title, img,link }: TImage) => {
   return (
     <div className={styles.container}>
       <div className={styles.image}>
-        <Image src={img} alt="img" width={400} height={300} className={styles.image} />
+        <Image src={img} alt="img" width={400} height={250} />
       </div>
       <div className={styles.content}>
         <Link href={link}>

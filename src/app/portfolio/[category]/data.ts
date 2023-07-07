@@ -4,7 +4,7 @@ interface Cate{
   desc:string
   image: string
 }
-interface Items{
+export interface Items{
   applications: Cate[]
   illustrations: Cate[]
   websites: Cate[]
